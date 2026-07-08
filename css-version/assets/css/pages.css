@@ -71,7 +71,11 @@
 
 .service-card{
     display: flex;
-    gap: var(--space-3);
+    gap: var(--space-5);
+}
+
+.service-card .card {
+    flex: 1;
 }
 
 .big-icon{
