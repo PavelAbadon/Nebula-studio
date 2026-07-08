@@ -1,0 +1,49 @@
+/*HEADER*/
+
+.header-wraper {
+    background-image: url("../images/hero-section-backgound.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navigation-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: var(--space-3);
+}
+
+.navigation-section ul{
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.logo img{
+    width: 25px;
+}
+.ebula{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.hero-section{
+    margin-top: var(--space-9);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-7);
+    
+
+}
+
+
+.h1{
+    font-size: var(--h1);
+}
