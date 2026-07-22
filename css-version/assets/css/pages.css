@@ -81,3 +81,11 @@
 .big-icon{
     font-size: 64px;
 }
+
+.our-work-heading{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: var(--space-4);
+   padding-bottom: var(--space-5);
+}
